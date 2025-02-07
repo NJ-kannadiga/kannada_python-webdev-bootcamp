@@ -50,6 +50,7 @@ The Document Object Model (DOM) is a programming interface for HTML and XML docu
 
 ---
 ![alt text](image.png)
+![alt text](image-1.png)
 ## HTML Tags
 
 ### 1. Headings
