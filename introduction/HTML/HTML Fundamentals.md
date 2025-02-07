@@ -49,7 +49,7 @@ The Document Object Model (DOM) is a programming interface for HTML and XML docu
 5. **Browser Rendering:** The browser renders the updated DOM tree, displaying the changes to the user.
 
 ---
-
+![alt text](image.png)
 ## HTML Tags
 
 ### 1. Headings
