@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>My Photo Gallery</title>
+  <title>HTML Fundamentals</title>
 </head>
 <style>
-.photo{
-    background-color: red;
-}
+
 </style>
+
 <body>
   <!-- Header section -->
-  <header class="photo">
-    <h1>Welcome to My Photo Gallery</h1>
+  <header class="int">
+    <h1>Introduction to HTML and Web Development</h1>
   </header>
-  
+
   <!-- Navigation section -->
   <nav>
     <ul>
@@ -22,32 +22,34 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+  <div><input type="text"></div>
   <div>
     <table border="1">
-        <thead>
-            <th>name</th>
-            <th>calss</th>
-            <th>sem</th>
-        </thead>
-        <tbody>
-            <tr>
-                
-<td>nj</td>
-<td>bca
-<td>1st</td>
-            </tr>
-            <tr>
-                
-                <td>nj</td>
-                <td>bca
-                <td>1st</td>
-                            </tr>            <tr>
-                
-                                <td>nj</td>
-                                <td>bca
-                                <td>1st</td>
-                                            </tr>           
-        </tbody>
+      <thead>
+        <th>name</th>
+        <th>calss</th>
+        <th>sem</th>
+      </thead>
+      <tbody>
+        <tr>
+
+          <td>nj</td>
+          <td>bca
+          <td>1st</td>
+        </tr>
+        <tr>
+
+          <td>nj</td>
+          <td>bca
+          <td>1st</td>
+        </tr>
+        <tr>
+
+          <td>nj</td>
+          <td>bca
+          <td>1st</td>
+        </tr>
+      </tbody>
     </table>
   </div>
   <!-- Main section -->
@@ -59,17 +61,27 @@
       <img src="image2.jpg" alt="Image 2">
       <img src="image3.jpg" alt="Image 3">
     </section>
-    
+
     <!-- About section -->
     <section id="about">
       <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+      <p>What is HTML?
+        HTML (HyperText Markup Language) is a standard markup language used to create web pages.
+
+        Why Use HTML?
+        HTML is the foundation of web development, providing structure and organization to web content.
+
+        What Can We Use Instead?
+        There are no direct alternatives to HTML, but other technologies like XML, XHTML, and HTML5 offer variations and
+        extensions.
+
+        Document Object Model (DOM)</p>
     </section>
-    
+
     <!-- Contact section -->
     <section id="contact">
       <h2>Get in Touch</h2>
-      <form>
+      <form id="contactForm">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="email">Email:</label>
@@ -78,10 +90,17 @@
       </form>
     </section>
   </main>
-  
+  <script>
+    const form=document.getElementById('contactForm')
+    console.log(form)
+    form.addEventListener('submit',function(event){
+alert("Hi")
+    })
+  </script>
   <!-- Footer section -->
   <footer>
     <p>Learn web and python together in kannda </p>
   </footer>
 </body>
+
 </html>

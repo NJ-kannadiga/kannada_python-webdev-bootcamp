@@ -1,4 +1,4 @@
-# HTML Fundamentals
+# HTML Fundamentals NJ
 
 ## Introduction to HTML and Web Development
 ### What is HTML?
