@@ -1,37 +1,53 @@
+
+
+
+
+<!DOCTYPE html>
 <html>
-    <style>
-.container{
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows:repeat(4, 150px);
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
 }
-.item-1{
-/* grid-column-start: 1;
-grid-column-end: 4;
-background: #5a1919;
-text-align: center;
-color: white;
-font-size: large; */
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
 }
-    </style>
-    <title>
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+</style>
+</head>
+<body>
 
-    </title>
-    <body>
+<h1>CSS Grid Layout</h1>
+
 <div class="container">
-    <div class="item item-1">ITEM 1</div>
-    <div class="item item-2">ITEM 1</div>
-    <div class="item item-3">ITEM 1</div>
-    <div class="item item-4">ITEM 1</div>
-    <div class="item item-5">ITEM 1</div>
-    <div class="item item-6">ITEM 1</div>
-    <div class="item item-7">ITEM 1</div>
-    <div class="item item-8">ITEM 1</div>
-    <div class="item item-9">ITEM 1</div>
+  <div class="header"><h2>My Header</h2></div>
+  <div class="menu"><a href="#">Link 1</a><br><a href="#">Link 2</a><br><a href="#">Link 3</a></div>
+  <div class="content"><h3>Properties</h3><p>CSS Grid is a two-dimensional layout system that allows for precise placement of elements in both rows and columns.
 
-
+    📌 Grid Properties</p></div>
+  <div class="footer"><h4>Footer</h4></div>
 </div>
-    </body>
+
+</body>
 </html>
