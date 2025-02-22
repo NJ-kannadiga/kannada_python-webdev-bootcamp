@@ -1,6 +1,6 @@
 Here’s the cleaned-up and properly formatted version of your GitHub markdown file:
 
-```markdown
+
 # JavaScript Basics
 
 ## 1. Objects in JavaScript
@@ -9,7 +9,7 @@ Objects are collections of key-value pairs. A key (also called a property) is a 
 
 ### Example of an Object:
 
-```javascript
+javascript
 const person = {
   name: "John",
   age: 30,
@@ -19,7 +19,7 @@ const person = {
 console.log(person.name); // "John"
 console.log(person.age);  // 30
 console.log(person.profession); // "Developer"
-```
+
 
 ### Adding or Updating Object Properties:
 
