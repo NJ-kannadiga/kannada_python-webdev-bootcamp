@@ -1,4 +1,4 @@
-Here is the formatted version of the content you can use in your GitHub markdown (`.md`) file:
+Here’s the cleaned-up and properly formatted version of your GitHub markdown file:
 
 ```markdown
 # JavaScript Basics
@@ -139,26 +139,29 @@ console.log(library.books[1].author); // "George Orwell"
 - **Manipulating Complex Data Structures:** Combining nested objects, arrays, and loops.
 - **Destructuring Objects and Arrays:** To access values directly.
 - **ES6 Enhancements:** Using `const`, `let`, the spread operator, and the rest parameter.
+
+## Array Methods
+
+Here is a list of commonly used array methods in JavaScript:
+
+- `.push()`: Adds one or more elements to the end of an array.
+- `.pop()`: Removes the last element of the array.
+- `.shift()`: Removes the first element of the array.
+- `.unshift()`: Adds one or more elements to the beginning of an array.
+- `.map()`: Creates a new array with the results of applying a function to each element.
+- `.filter()`: Creates a new array with elements that pass the provided condition.
+- `.forEach()`: Executes a provided function once for each element in the array.
+- `.includes()`: Checks if an element exists in the array, returns true or false.
+- `.indexOf()`: Returns the index of the first occurrence of an element, or -1 if not found.
+- `.slice()`: Creates a shallow copy of a portion of an array.
+- `.splice()`: Adds or removes elements from an array.
+- `.join()`: Joins array elements into a single string.
+- `.concat()`: Combines multiple arrays into one.
+- `.reverse()`: Reverses the order of the elements in an array.
+- `.sort()`: Sorts the array in place.
+- `.some()`: Checks if at least one element satisfies a condition.
+- `.every()`: Checks if all elements satisfy a condition.
+- `.find()`: Returns the first element that satisfies a condition.
+- `.reduce()`: Reduces the array to a single value by applying a function to the elements.
 ```
-```
-Array Methods:
-.push(): Adds one or more elements to the end of an array.
-.pop(): Removes the last element of the array.
-.shift(): Removes the first element of the array.
-.unshift(): Adds one or more elements to the beginning of an array.
-.map(): Creates a new array with the results of applying a function to each element.
-.filter(): Creates a new array with elements that pass the provided condition.
-.forEach(): Executes a provided function once for each element in the array.
-.includes(): Checks if an element exists in the array, returns true or false.
-.indexOf(): Returns the index of the first occurrence of an element, or -1 if not found.
-.slice(): Creates a shallow copy of a portion of an array.
-.splice(): Adds or removes elements from an array.
-.join(): Joins array elements into a single string.
-.concat(): Combines multiple arrays into one.
-.reverse(): Reverses the order of the elements in an array.
-.sort(): Sorts the array in place.
-.some(): Checks if at least one element satisfies a condition.
-.every(): Checks if all elements satisfy a condition.
-.find(): Returns the first element that satisfies a condition.
-.reduce(): Reduces the array to a single value by applying a function to the elements.
-```
+
